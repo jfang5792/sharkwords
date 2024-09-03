@@ -1,0 +1,76 @@
+body {
+  font-family: monospace;
+  font-size: 52px;
+  background-color: lightblue;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+#title {
+  display: grid;
+  justify-items: center;
+}
+
+#shark-img {
+  box-shadow: rgba(18, 6, 230, 0.849) 2px 3px 5px 2px;
+}
+
+#letter-buttons {
+  width: 50%;
+  margin: 12px auto;
+  text-align: center;
+  flex-wrap: wrap;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+#play-again {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: underline;
+  color: red;
+  cursor: pointer;
+  margin: 0.67em 0;
+}
+
+#play-again:hover {
+  text-decoration: none;
+}
+
+#win {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: underline;
+  color: rgb(112, 0, 160);
+  cursor: pointer;
+  margin: 0.67em 0;
+}
+
+.letter-box {
+  width: 1.5em;
+  height: 2em;
+  margin: 5px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+button {
+  width: 1.5em;
+  height: 1.5em;
+  font-size: 0.6em;
+  background: white;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+button[disabled='true'] {
+  cursor: default;
+}
